@@ -1,5 +1,4 @@
-import { useState } from 'react'
-
+import { useState } from 'react';
 import './App.css'
 
 function App() {
@@ -7,7 +6,9 @@ function App() {
 
   return (
     <>
-    hello world
+      <h1>hello this is app page</h1>
+      <button onClick={() => setCount(count + 1)}>Click me</button>
+      <p>{count}</p>
     </>
 
   )
